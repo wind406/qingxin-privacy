@@ -4,7 +4,7 @@
 
 ## 访问地址
 
-**https://Yuzhang.github.io/serenmind-privacy/**
+**https://wind406.github.io/qingxin-privacy/**
 
 ## 联系人
 
