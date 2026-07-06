@@ -25,7 +25,8 @@
 <p>• <strong>情绪记录</strong>：您选择的心情等级（1-5分），仅存储在您的设备本地。</p>
 <p>• <strong>呼吸练习记录</strong>：练习时长和类型的统计数据，仅存储在您的设备本地。</p>
 <p>• <strong>语音输入</strong>：仅在您主动使用语音输入功能时，经您授权后访问麦克风。录音数据仅用于语音转文字，不会上传或存储到任何服务器。您可以在系统设置中随时关闭麦克风权限。</p>
-<p>• <strong>匿名行为数据</strong>：通过 Firebase Analytics 收集非个人身份的使用统计数据（如功能使用频率、设备型号、操作系统版本、WiFi 网络名称 SSID/BSSID 用于粗略地理位置估算）。以上均为匿名统计数据，不包含个人身份信息。</p>
+<p>• <strong>设备网络信息（SSID/BSSID）</strong>：通过 Firebase Analytics 自动获取您当前连接的 WiFi 网络名称（SSID）和基站标识（BSSID），仅用于估算设备所在的国家/城市级别粗略地理位置，以统计不同地区用户的使用分布。此信息为 Firebase SDK 默认采集的匿名统计数据，不与任何个人身份关联，也不会被存储或分享给其他第三方。您可以在首次启动时拒绝同意隐私政策，或通过卸载 App 撤回同意。</p>
+<p>• <strong>匿名行为数据</strong>：通过 Firebase Analytics 收集非个人身份的使用统计数据（如功能使用频率、设备型号、操作系统版本）。以上均为匿名统计数据，不包含个人身份信息。</p>
 
 <h2>2. AI 分析说明</h2>
 <p>当您使用 CBT 分析功能时，您输入的思维文本会被发送到 DeepSeek API 服务器进行处理。此过程中：</p>
@@ -39,7 +40,7 @@
 
 <h2>4. 第三方服务</h2>
 <p>SerenMind (清心) 使用以下第三方服务：</p>
-<p>• <strong>Firebase Analytics</strong>（Google）：收集匿名行为统计数据（如功能使用频率、设备型号、操作系统版本、应用使用时长、WiFi 网络名称 SSID/BSSID 用于粗略地理位置估算），帮助我们改进产品。以上均为匿名统计数据，不包含个人身份信息。您可以随时在 App 的隐私设置中撤回同意。</p>
+<p>• <strong>Firebase Analytics</strong>（Google）：收集匿名统计数据，具体包括：功能使用频率、设备型号、操作系统版本、应用使用时长，以及 <strong>WiFi 网络名称（SSID）和基站标识（BSSID）用于粗略地理位置估算</strong>（仅到城市级别）。以上数据均为匿名统计，不包含个人身份信息。您可以随时通过卸载 App 撤回同意。</p>
 <p>• <strong>Firebase Cloud Messaging</strong>（Google）：用于发送可选的推送通知（如每日提醒）。您可以在 App 中随时关闭推送。</p>
 <p>• <strong>DeepSeek API</strong>：用于 CBT 分析功能。您的思维文本在分析时发送至 DeepSeek 服务器，不与任何个人身份信息关联。</p>
 
